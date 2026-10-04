@@ -119,7 +119,7 @@ store_establishment_year = st.number_input(
 store_size = st.selectbox(
     "Store Size",
     [
-        "Low",
+        "Small",
         "Medium",
         "High"
     ]
