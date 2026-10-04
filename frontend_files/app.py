@@ -95,16 +95,10 @@ product_mrp = st.number_input(
 store_id = st.selectbox(
     "Store ID",
     [
-        "OUT010",
-        "OUT013",
-        "OUT017",
-        "OUT018",
-        "OUT019",
-        "OUT027",
-        "OUT035",
-        "OUT045",
-        "OUT046",
-        "OUT049"
+        "OUT001",
+        "OUT002",
+        "OUT003",
+        "OUT004",
     ]
 )
 
