@@ -1,13 +1,14 @@
 import streamlit as st
 import pandas as pd
 import requests
+import os
 
 
 # ---------------------------------------------------------
 # Backend configuration
 # ---------------------------------------------------------
 
-BACKEND_URL = "http://backend:7860"
+BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:7860")
 
 
 # ---------------------------------------------------------
@@ -98,7 +99,7 @@ store_id = st.selectbox(
         "OUT001",
         "OUT002",
         "OUT003",
-        "OUT004",
+        "OUT004"
     ]
 )
 
